@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+        <div class="frame">
+            <p>SPLI</p>
+            <p>TTER</p>
+            <div class="card-main">
+                <div class="feed">
+                    <div class="bill">
+                        <label>Bill</label>
+                        <input type="number" name="bill" class="bill-input">
+                    </div>
+                    <div class="percentages">
+                        <label>Select Tip %</label>
+                        <div class="btn-container">
+                            <div><button class="btn-n" value="0.05" >5%</button></div>
+                            <div><button class="btn-n" value="0.1">10%</button></div>
+                            <div><button class="btn-n" value="0.15">15%</button></div>
+                            <div><button class="btn-n" value="0.25">25%</button></div>
+                            <div><button class="btn-n" value="0.5">50%</button></div>
+                            <div><input class="custom-btn"
+                                style="background-color: rgb(235, 243, 243);
+                                color: rgb(50, 92, 79); width: 78px; height: 34px;
+                                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                 border: none; border-radius: 4px; font-size: 15px; font-weight: bold;
+                                 text-align: center;" placeholder="Custom"
+                                ></div>
+                        </div>
+                    </div>
+                    <div class="n-of-people" >
+                        <label>Number of people</label>
+                        <input class="n-people-input" type="number" placeholder="#" min="0" max="20">
+
+                    </div>
+
+                </div>
+                <div class="results">
+                    <div class="person-tip">
+                        <div class="person-tip-container">
+                             <div class="small-tags">
+                            <div> 
+                                <label style="color:white; font-size: 11px;">Tip Amount</label>
+                            </div>
+                            <div>
+                                <label style="color:rgb(56, 182, 182); font-size: 9px;">/ person</label>
+                            </div>
+                            </div>
+                            <div class="tipDiv">
+                                <output class="tipOutput">0.00</output>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="person-total">
+                        <div class="person-total-container">
+                            <div class="small-tags">
+                            <div> 
+                                <label style="color:white; font-size: 11px;">Total</label>
+                            </div>
+                            <div>
+                                <label style="color:rgb(56, 182, 182); font-size: 9px;">/ person</label>
+                            </div>
+                            </div>
+                            <div class="billDiv">
+                                <output class="personalBill">0.00</output>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+
+                    <div class="reset-btn">
+                        <button class="reset-btn-btn">RESET</button>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="functions.js"></script>
+</html>
