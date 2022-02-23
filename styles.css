@@ -122,6 +122,14 @@ body {
     color: darkslategray;
 }
 
+.btn10:focus {
+
+    background-color: rgb(0, 243, 243);
+ 
+    color: darkslategray;
+}
+
+
 /*lo de abajo no jalo*/
 
 .btn-container div button .custom-btn {
